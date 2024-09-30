@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width:device-width, initial-scale=1.0">
+  <head>
+    <script>
+      history.scrollRestoration = "manual"
+
+$(window).on('beforeunload', function(){
+      $(window).scrollTop(0);
+});
+    </script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Portfolio- Jayan Shrestha</title>
+    <body>
+      <header id="header">
+      
+      <div id="navbar" class="nav">
+        <div class="logo"><a href="" target="_blank" id="profile-link"></a></div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="">Contact</a></li>
+          </ul>
+      </div>
+      </header>
+      <main>
+        <section id="welcome-section" class="welcome-section">
+          
+          <div class="introduction">
+            <img class="hello" src="./images/Hello.png" width="300px;" >
+            
+            <h1>Hello!</h1>
+            <h2>I'm Jayan Shrestha </h2>
+            <h3 style="text-align:center;">A passionate web developer who loves to build responsive website and web application. </h3>
+              
+
+            </div>
+            <div class="portfolio">
+            <img src="./images/Portfolio.png">
+            </div>
+          </section>
+          <section id="projects" class="projects">
+            <div class="project-intro">
+              <h1 style="text-align:center;">A Few of my projects</h1>
+              </div>
+              <div class="project-tile">
+<div class="project-1">
+  <div class="project-image">
+    </div>
+    <div class="project-title">
+      <a href="">Tribuite Page</a>
+      </div>
+  </div>
+  <div class="project-2">
+    <div class="project-image">
+    </div>
+    <div class="project-title">
+      <a href="">Calculator</a>
+      </div>
+  </div>
+  <div class="project-3">
+    <div class="project-image">
+    </div>
+    <div class="project-title">
+      <a href="">Papa Penguin</a>
+      </div>
+  </div>
+                </div>
+
+
+            </section>
+        </main>
+      </body>
+  </html>
