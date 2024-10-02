@@ -139,6 +139,7 @@ position:relative;
   overflow-y:hidden;
   position:relative;
   margin-top:80px;
+  z-index:1000;
 }
 .portfolio img{
 
