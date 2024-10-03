@@ -100,6 +100,7 @@ position:relative;
 
 }
 .introduction img{
+  width:300px;
  margin-bottom:-100px;
  padding-left:20%;
   z-index:1;
@@ -139,7 +140,6 @@ position:relative;
   overflow-y:hidden;
   position:relative;
   margin-top:80px;
-  z-index:1000;
 }
 .portfolio img{
 
@@ -199,6 +199,10 @@ height:300px;
 .introduction img{
   margin-bottom:-100px;
   padding-left:0%;
+  width:200px;
+  position:relative;
+  bottom:20px;
+  left:50px;
 }
 .welcome-section{
   display: grid;
@@ -208,6 +212,8 @@ height:300px;
 .portfolio{
   margin-top:100px;
   margin-left:20px;
+  position:relative;
+  top:-50px;
 }
 .introduction h2{
   font-size:30px;
