@@ -206,6 +206,8 @@ height:300px;
 }
 .welcome-section{
   display: block;
+  grid-template-columns: 1fr 1fr;
+  justify-content:space-evenly;
   height:100vh;
   margin-bottom:100px;
 }
