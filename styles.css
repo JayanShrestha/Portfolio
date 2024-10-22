@@ -210,10 +210,18 @@ height:300px;
   margin-bottom:100px;
 }
 .portfolio{
-  margin-top:50px;
+  margin-top:25px;
   margin-left:20px;
   position:relative;
   top:-30px;
+}
+  .portfolio img{
+
+width:250px;
+height:250px;
+
+
+
 }
 .introduction h2{
   font-size:30px;
