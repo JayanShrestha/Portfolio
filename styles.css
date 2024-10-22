@@ -22,25 +22,14 @@ body{
 
 
 .navbar{
- width:100%;
-  
-background:linear-gradient(to bottom right, 
-  rgb(46, 46, 46), #1B1B1B);
- 
+ width:100%; 
 position:fixed;
   z-index: 1000;
  padding: 1rem;
 
  
 }
-.nav{
-  
-  display:flex;
-padding:20px;  
-justify-content:flex-end;
 
-  
-}
 .navbar-brand{
   color:#9C9C9C;
 }
@@ -50,7 +39,6 @@ justify-content:flex-end;
 
 #navbar ul li{
  list-style:none;
- display:inline-block;
  margin:0 30px;
  font-size: 20px;
 }
@@ -61,6 +49,12 @@ justify-content:flex-end;
 }
 #navbar ul li a:hover{
   color:white;
+}
+
+.collapse{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 main{
@@ -223,5 +217,10 @@ height:300px;
 }
 .introduction h2{
   font-size:30px;
+}
+.collapse{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 }
