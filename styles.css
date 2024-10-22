@@ -21,7 +21,7 @@ body{
 }
 
 
-#navbar{
+.navbar{
  width:100%;
   
 background:linear-gradient(to bottom right, 
@@ -30,6 +30,7 @@ background:linear-gradient(to bottom right,
 position:fixed;
   z-index: 1000;
  padding: 1rem;
+
  
 }
 .nav{
@@ -40,9 +41,11 @@ justify-content:flex-end;
 
   
 }
-
-#navbar ul li a:hover{
-  color:white;
+.navbar-brand{
+  color:#9C9C9C;
+}
+.navbar-brand:hover{
+  color: white;
 }
 
 #navbar ul li{
@@ -56,13 +59,13 @@ justify-content:flex-end;
   color:#9C9C9C;
   font-weight:lighter;
 }
-a:hover{
+#navbar ul li a:hover{
   color:white;
 }
 
 main{
   position:relative;
-  margin-top:40px;
+  margin-top:;
   padding:20px 20px;
   //**background-image: url("BackgroundImage.jpg");
   background-repeat: no-repeat;*/
