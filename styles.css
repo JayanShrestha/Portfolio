@@ -66,9 +66,12 @@ main{
   
 
   /*transform:scaleX(-1)*/
-  background-color: #000;
-  background-image: linear-gradient(62deg, #000000 0%, #333333 100%);
   
+}
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
 }
 
 .welcome-section{
@@ -125,7 +128,7 @@ position:relative;
   font-size:25px;
   font-style:italic;
   font-weight: lighter;
-  color:#9C9C9C;
+  color:white;
   overflow-y:hidden;
 }
 
@@ -165,6 +168,17 @@ height:300px;
   
    
 }
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 
 
@@ -194,6 +208,7 @@ height:300px;
     
 }
 .introduction img{
+ 
   padding-left:0%;
   width:150px;
   position:relative;
@@ -212,16 +227,17 @@ height:300px;
   margin-top:25px;
   margin-left:20px;
   position:relative;
-  top:-30px;
+  top:-50px;
+  
 }
-  .portfolio img{
+.portfolio img{
 
-width:250px;
-height:250px;
-
-
-
-}
+  width:250px;
+  height:250px;
+  
+  
+  
+  }
 .introduction h2{
   font-size:30px;
 }
