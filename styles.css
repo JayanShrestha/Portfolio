@@ -12,13 +12,17 @@
 html{
   scroll-behavior: smooth;
 }
-body{
-  font-family:sans-serif;
-  padding:0;
-  
- 
 
+
+
+
+
+body{
+  font-family: "Merriweather", serif;
+  padding:0;
 }
+
+
 
 
 .navbar{
@@ -26,12 +30,12 @@ body{
 position:fixed;
   z-index: 1000;
  padding: 1rem;
-
+background-color: #89A8B2;
  
 }
 
 .navbar-brand{
-  color:#9C9C9C;
+  color:#E5E1DA;
 }
 .navbar-brand:hover{
   color: white;
@@ -44,7 +48,7 @@ position:fixed;
 }
 #navbar ul li a{
   text-decoration:none;
-  color:#9C9C9C;
+  color:#E5E1DA;
   font-weight:lighter;
 }
 #navbar ul li a:hover{
@@ -69,9 +73,9 @@ main{
   
 }
 .gradient-background {
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background: linear-gradient(300deg, #89A8B2, #E5E1DA, #F1F0E8);
   background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
+  animation: gradient-animation 8s ease infinite;
 }
 
 .welcome-section{
@@ -82,7 +86,7 @@ main{
   height:100vh;
   position:relative;
   
-  color:white;
+  color:black;
   overflow-y:hidden;
  
 
@@ -116,6 +120,11 @@ position:relative;
   overflow-y:hidden;
 
 }
+.projects h2 {
+  text-align:center;
+  font-size:70px;
+  overflow-y:hidden;
+}
 .introduction h2{
   text-align:center;
   font-size:50px;
@@ -128,7 +137,7 @@ position:relative;
   font-size:25px;
   font-style:italic;
   font-weight: lighter;
-  color:white;
+  color:black;
   overflow-y:hidden;
 }
 
@@ -149,7 +158,9 @@ height:300px;
 
 
 }
-
+.projects{
+background-color: #F1F0E8;
+}
 
 /*animations*/
 @keyframes imgRotator{
@@ -218,10 +229,10 @@ height:300px;
 }
 .welcome-section{
   display: block;
-  grid-template-columns: 1fr 1fr;
-  justify-content:space-evenly;
-  height:100vh;
-  margin-bottom:100px;
+  
+  
+  
+ 
 }
 .portfolio{
   margin-top:25px;
